@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📆 Event Managing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📅 My Events</h1>
+        
+        <div class="event-form">
+            <h2>Create Event</h2>
+            <input type="text" id="eventTitle" placeholder=" Event Title" required>
+            <input type="date" id="eventDate" required>
+            <textarea id="eventDescription" placeholder=" Event Description"></textarea>
+            <button id="addEvent"><i class="fas fa-plus-circle"></i> Add My Event</button>
+        </div>
+
+        <h2>📅 Upcoming Events</h2>
+        <ul id="eventList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
